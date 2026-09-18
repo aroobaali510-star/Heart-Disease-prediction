@@ -143,8 +143,23 @@ input {
 
 /* ---------- Selectbox text ---------- */
 
-div[data-baseweb="select"] * {
-    color: #f5f5f5 !important;
+iv[data-baseweb="select"] {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+}
+
+div[data-baseweb="select"] > div {
+    background-color: #111111 !important;
+    border: 1px solid #2a2a2a !important;
+}
+
+div[data-baseweb="select"] span {
+    color: #ffffff !important;
+}
+
+div[data-baseweb="select"] input {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
 }
 
 /* ---------- Button ---------- */
